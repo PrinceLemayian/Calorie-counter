@@ -10,13 +10,12 @@ A simple, responsive web app to help users track daily calorie intake. Built wit
 - Edit and delete items
 - View total calories for the day
 - Persist data in localStorage so items remain between sessions
-- Mobile-first, responsive UI
 
 ## 🚀 Live (Local) Usage
 
 1. Clone or download the repository:
 
-   git clone <repository-url>
+   git clone (https://github.com/PrinceLemayian/Calorie-counter)
 
 2. Open `index.html` in your browser (no server required):
 
@@ -29,13 +28,8 @@ A simple, responsive web app to help users track daily calorie intake. Built wit
 
 - `index.html` — App markup
 - `styles.css` — Styling and responsive layout
-- `script.js` — Application logic (DOM manipulation, event handlers, localStorage)
+- `script.js` — Application logic (DOM manipulation, event handlers)
 - `README.md` — Project documentation
-
-## 💡 How it works (brief)
-
-- Items are stored in localStorage as JSON. On load, the app reads saved items and displays them.
-- Adding an item updates the UI and localStorage; editing or deleting updates both as well.
 
 ## 🛠️ Technologies
 
@@ -58,17 +52,3 @@ Manual testing via the browser is sufficient for this small app:
 
 - Add, edit and delete items and refresh to ensure persistence
 - Try on different screen sizes to verify responsive behavior
-
-## 📋 To-Do / Ideas
-
-- Add daily/weekly charts
-- Add user accounts and backend storage
-- Add input validation and accessibility improvements
-
-## 📄 License
-
-MIT
-
----
-
-If you'd like, I can update this README to include screenshots, usage GIFs, or deployment instructions for GitHub Pages — tell me which you'd prefer.
